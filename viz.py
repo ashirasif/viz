@@ -21,7 +21,9 @@ args = parser.parse_args()
 if args.size is None:
     size = (1920, 1080)
 else:
-    size = [tuple(int(x), int(y)) for x, y in (args.size).split(",")]
+    size = (args.size).split(",")
+    size = [int(i) for i in size]
+    size = tuple(size)
 if args.fps is None:
     fps = 30
 else:
