@@ -2,8 +2,8 @@
 Python script to visualizes music using monitor. I wanted to make it with LED strips but was too broke to buy them (still am).
 
 ## Requirements
-+ Pygame for python3
-+ Sounddevice for python3
++ Pygame for python3 ```pip install pygame```
++ Sounddevice for python3 ```pip install sounddevice```
 
 ## Arguments
 All the arguments are optional.  

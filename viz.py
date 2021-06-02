@@ -7,7 +7,7 @@ import pygame as pg
 import sounddevice as sd
 
 
-# tried to learn "asyncio" while making this so called project. Still got roads to travel
+# tried to learn "asyncio" while making this so called project. Still got roads to cover
 # a lot pygame functionality is still not implemented
 
 # argument parsing
